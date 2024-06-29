@@ -1,0 +1,12 @@
+@font-face {
+   font-family: "Footlight MT Light";
+   src: url("fonts/Footlight MT Light.eot") format("embedded-opentype"), url("fonts/Footlight MT Light.TTF") format("truetype"), url("fonts/Footlight MT Light.woff") format("woff"), url("fonts/Footlight MT Light.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Vivaldi";
+   src: url("fonts/Vivaldi Italic.eot") format("embedded-opentype"), url("fonts/Vivaldi Italic.TTF") format("truetype"), url("fonts/Vivaldi Italic.woff") format("woff"), url("fonts/Vivaldi Italic.svg") format("svg");
+   font-weight: normal;
+   font-style: italic;
+}

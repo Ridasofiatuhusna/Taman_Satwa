@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Virtual Tour Taman Satwa</title>
+  </head>
+  
+  <body>
+    <header id="home">
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__logo"><a href="#">Taman Satwa Cikembulan</a></div>
+          <ul class="nav__links">
+            <li class="link"><a href="#home">Beranda</a></li>
+            <li class="link"><a href="#about">Informasi</a></li>
+            <li class="link"><a href="#gallery">Galeri</a></li>
+            <li class="link"><a href="#testimonials">Testimoni</a></li>
+            <li class="link"><a href="#contact">Kontak</a></li>
+            <li class="link search">
+              <span><i class="ri-search-line"></i></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container">
+        <h1>Taman Satwa Cikembulan</h1>
+        <h4>Mari Jelajahi</h4>
+        <button class="btn" onclick="window.location.href='index.htm'">
+          Vr Tour <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+    </header>
+
+<!--ABOUT US-->
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__content">
+          <h2 class="section__header">Informasi</h2>
+          <p class="section__subheader">
+            Taman Satwa Cikembulan memiliki beberapa koleksi satwa, 
+            seperti beberapa jenis burung, singa, monyet, orang utan, 
+            burung merak, dan berbagai jenis binatang lainnya. Dari 
+            sejumlah koleksi satwa tersebut, banyak pengunjung yang 
+            diam lebih lama di kandang jenis monyet dan kucing besar, 
+            seperti harimau dan singa. Sementara, tempat yang menjadi 
+            unggulan untuk anak-anak, yaitu orang utan, singa, dan 
+            siamang. Hal ini lantaran, kandanganya berada di area terbuka.
+          </p>
+          <div class="about__flex">
+            <div class="about__card">
+              <p>Tour Guides</p>
+            </div>
+            <div class="about__card">
+              <p>Feeding Animals</p>
+            </div>
+            <div class="about__card">
+              <p>Animal Edutaiment</p>
+            </div>
+          </div>
+          <button class="btn" onclick="window.location.href='about.html'"> 
+            Lihat Selengkapnya <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+        <div class="about__image">
+          <img src="assets/1.jpg" alt="about" />
+        </div>
+      </div>
+    </section>
+
+<!--Galeri-->
+    <section class="gallery" id="gallery">
+      <div class="gallery__container">
+        <h2 class="section__header">Galeri Foto</h2>
+        <p class="section__subheader">
+          Explore the most beautiful places in the world.
+        </p>
+        <div class="gallery__grid">
+          <div class="gallery__card">
+            <img src="assets/gallery-1.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Northern Lights</h4>
+              <p>Norway</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="assets/gallery-2.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Krabi</h4>
+              <p>Thailand</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="assets/gallery-3.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Bali</h4>
+              <p>Indonesia</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="assets/gallery-4.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Tokyo</h4>
+              <p>Japan</p>
+            </div>
+          </div>
+          <div class="gallery__card">
+            <img src="assets/gallery-5.jpg" alt="gallery" />
+            <div class="gallery__content">
+              <h4>Taj Mahal</h4>
+              <p>India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!--Testimoni-->
+  <section class="testimonials" id="testimonials">
+    <div class="section__container testimonials__container">
+      <h2 class="section__header">Testimoni</h2>
+      <p class="section__subheader">
+        A journal is a place to record new things you have discovered while
+      </p>
+      <div class="swiper testimonials__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide testimonials__slide">
+            <img src="assets/ula3.jpg" alt="testimonial image">
+            <p class="testimonials__text">"Tempatnya sangat indah dan menyenangkan. Anak-anak sangat senang berkunjung ke sini." - Rina Kartika</p>
+          </div>
+          <div class="swiper-slide testimonials__slide">
+            <img src="assets/ula2.JPG" alt="testimonial image">
+            <p class="testimonials__text">"Pengalaman yang luar biasa! Fasilitasnya lengkap dan stafnya ramah." - Dedi Supriyadi</p>
+          </div>
+          <div class="swiper-slide testimonials__slide">
+            <img src="assets/ula1.jpg" alt="testimonial image">
+            <p class="testimonials__text">"Tempat yang sangat cocok untuk berlibur bersama keluarga." - Siti Aisyah</p>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+<!--CONTACT-->
+    <section class="contact" id="contact">
+      <div class="section__container contact__container">
+        <div class="contact__col">
+          <h4>Contact a travel researcher</h4>
+          <p>We always aim to reply within 24 hours.</p>
+        </div>
+        <div class="contact__col">
+          <div class="contact__card">
+            <span><a href="#"></a><i class="ri-whatsapp-fill"></i></span>
+            <h4>Call us</h4>
+            <h5>+91 9876543210</h5>
+            <p>We are online now</p>
+          </div>
+        </div>
+        <div class="contact__col">
+          <div class="contact__card">
+            <span><i class="ri-mail-line"></i></span>
+            <h4>Send us an enquiry</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    
+<!--MAPS-->
+<section class="maps">
+  <div class="section__container maps__container">
+    <h1>Find Us Here</h1>
+    <div class="maps__iframe">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15832.522122732448!2d107.89873157879839!3d-7.252380674042098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6586d36d57f829%3A0x8a63e5c156246eeb!2sTaman%20Satwa%20Cikembulan!5e0!3m2!1sen!2sid!4v1685252578846!5m2!1sen!2sid"
+        width="1200"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!--FOOTER-->
+    <section class="footer">
+      <div class="section__container footer__container">
+        <h4>Sosial Media</h4>
+        <div class="footer__socials">
+          <span>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </span>
+          <span>
+            <a href="https://www.instagram.com/tamansatwacikembulan_official/"><i class="ri-instagram-fill"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-whatsapp-fill"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-tiktok-fill"></i></a>
+          </span>
+        </div>
+        <p>
+          Cheap Romantic Vacations. Many people feel that there is a limited
+          amount of abundance, wealth, or chance to succeed in life.
+        </p>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#home">Beranda</a></li>
+          <li class="footer__link"><a href="#about">Informasi</a></li>
+          <li class="footer__link"><a href="#gallery">Galeri</a></li>
+          <li class="footer__link"><a href="#testimonials">Testimoni</a></li>
+          <li class="footer__link"><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 RS. All rights reserved.
+      </div>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // Initialize Swiper
+      var swiper = new Swiper('.testimonials__swiper', {
+        loop: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    
+
+  </body>
+</html>
